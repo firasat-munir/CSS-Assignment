@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Sample 2</title>
+</head>
+<body>
+    <div class="wbody">
+    <h1>User Registration Form</h1>
+        <form action="http://www.example.com/login.php" method="post">
+            Username:
+            <input type="text" name="username" size="15" maxlength="30"><br>
+            Password:   
+            <input type="password" name="password" size="15" maxlength="30"><br>
+            Date of Birth:
+            <input type="date" name="dob" placeholder="mm/dd/yyyy"><br>
+            Web URL:
+            <input type="url" name="url" size="15" maxlength="255"><br>
+            Address:
+            <input type="text" name="address" size="15" maxlength="255"><br>
+            City:
+            <select name="city">
+                <option>Karachi</option>
+                <option>Hyderabad</option>
+                <option>Islamabad</option>
+            </select><br>
+            State:
+            <input type="text" name="state" size="8" maxlength="10"><br>
+            Zip:
+            <input type="text" name="zip" size="8" maxlength="10"><br>
+            </p>
+            Magazine:
+            <select name="magazine" multiple>
+                <option value="newsweek">Newsweek</option>
+                <option value="time">Time</option>
+                <option value="fortune">Fortune</option>
+                <option value="tvguide">TV Guide</option>
+            </select>
+       
+    </form>
+    <p>
+        Additional Comments:<br>
+        <textarea name="comments" rows="6" cols="35"></textarea>
+    </p>
+
+    <p>Upload your profile picture:
+        <input type="file" name="dp" class="file">
+        <input type="submit" value="Upload" class="upload">
+        <br>
+        <input type="submit" value="Send Your Order">
+    </p>
+    </div>
+</body>
+</html>

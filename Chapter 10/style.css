@@ -1,0 +1,39 @@
+h1{
+    color: royalblue;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.sec1 h2 , .sec2 h2{
+    background-color: lightgray;
+    color: royalblue;
+}
+
+.sec2{
+    margin-top: 40px;
+}
+
+.sec1 h3 , .sec2 h3{
+    color: royalblue;
+}
+
+h3~p{
+    margin-left: 40px;
+    line-height: 0px;
+}
+
+h3{
+    font-weight: 400;
+}
+
+h3>span{
+    font-weight: 900;
+}
+
+p>span{
+    font-size: 28px;
+}
+
+.ast, sup{
+    color: red;
+}

@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(211, 204, 240);
+}
+
+.head1>h3{
+    display: inline-block;
+    color: grey;
+}
+
+.head2>h3, h2, body>p{
+    color: #5a6a9c ;
+}
+
+.head2{
+    background-color: lightgray;
+    padding: 2px 0;
+}
+
+.mainbody{
+    background-color: white;
+}
+
+.pic1{
+    border: 1px;
+    box-shadow: 1px 5px 10px #5a5a5a;
+}
+
+.pic2{
+    border: 3px solid rgb(185, 0, 0);
+    border-radius: 5px;
+}

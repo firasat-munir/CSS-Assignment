@@ -1,0 +1,40 @@
+form , p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: none;
+}
+
+h1{
+    background-color:rgb(159, 201, 87);
+    color: white;
+    margin:4px;
+}
+
+.wbody{
+    width: 500px;
+    background-color: rgb(221, 220, 220);
+}
+
+form{
+    line-height: 25px;
+}
+
+input, select{
+    display: inline;
+}
+
+.file{
+    background-color: white;
+}
+
+.upload{
+    margin-left: 195px;
+}
+
+input[type="submit"]{
+    background-color: rgb(159, 201, 87);
+    color: white;
+    border-color: lightgrey;
+}
